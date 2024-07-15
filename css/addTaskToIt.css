@@ -1,0 +1,23 @@
+.add-task-to-it {
+    position: relative;
+    height: 34px;
+    flex: 1 1 auto;
+    order: 3;
+    overflow: hidden;
+    transition: width .2s;
+    margin-left: 14px;
+    max-width: 126px;
+    min-width: 126px;
+}
+
+.add-task-to-it a {
+    background: #b5e827;
+    color: #535c69;
+    text-transform: uppercase;
+    line-height: 35px;
+    padding: 9px 26px;
+    border-radius: 4px;
+    transition: 160ms color linear,160ms opacity linear,160ms background-color linear;
+    font-size: 12px;
+    font-weight: 600;
+}
